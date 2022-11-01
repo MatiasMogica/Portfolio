@@ -1,0 +1,13 @@
+.navContainer {
+    margin-left: 60vw;
+    border-bottom: #142d4c 1px solid;
+}
+
+.navContainer ul  {
+    display: flex;
+}
+
+.navContainer ul li {
+    margin-right: 9%;
+}
+

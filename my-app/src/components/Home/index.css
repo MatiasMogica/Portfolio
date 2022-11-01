@@ -1,0 +1,24 @@
+.typewriter{
+    background-color: white;
+    position: relative;
+}
+
+.typewriter::after{
+    content: "";
+    border-left: 3px solid black;
+    background: white;
+    right: 0;
+    height: 100%;
+    position: absolute;
+
+    animation: writing 4s infinite alternate steps(26);
+}
+
+@keyframes writing {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}
