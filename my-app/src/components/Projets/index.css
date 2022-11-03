@@ -1,0 +1,11 @@
+.projetsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4vw;
+}
+
+.titleProjets{
+   padding-bottom: 5vh;
+}

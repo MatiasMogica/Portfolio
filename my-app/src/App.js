@@ -4,6 +4,8 @@ import { Routes, Route } from "react-router-dom"
 import NavBar from './components/NavBar';
 import Home from "./components/Home"
 import About from './components/About';
+import Projects from './components/Projets';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <NavBar />
       <Home />
       <About />
+      <Projects /> 
+      <Contact />
     </div>
   );
 }

@@ -1,13 +1,32 @@
-.navContainer {
-    margin-left: 60vw;
-    border-bottom: #142d4c 1px solid;
-}
-
-.navContainer ul  {
+nav{
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
     display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(3px);
+}
+nav a{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-ligth);
+    font-size: 1.1rem;
 }
 
-.navContainer ul li {
-    margin-right: 9%;
+nav a:hover{
+    background: var(--color-bg);
 }
 
+nav a.active{
+    background: rgba(77,181,255, 0.3);
+    color: var(--color-bg)
+}

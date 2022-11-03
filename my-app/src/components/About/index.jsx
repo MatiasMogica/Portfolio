@@ -14,6 +14,7 @@ import "./index.css"
 
 export default function About() {
     return (
+        <section id='about'>
         <div>
             <h2>Hi there!</h2>
             <p>I'm a Fullstack Web Developer
@@ -100,5 +101,6 @@ export default function About() {
 
             </div>
         </div>
+        </section>
     )
 }

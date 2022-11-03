@@ -1,0 +1,25 @@
+.cardContainer{
+    width: 42,5vw;
+    height: 70vh;
+    margin-bottom: 10vh;
+    margin-right: 5vw;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.carouserContainer{
+    padding-top: 2vh ;
+    width: 42vw;
+    height: 34vh; 
+}
+
+.description{
+    padding: 10vh 1vw 2vh 1vw ;
+    width: 40vw;    
+}
+
+.imageCarousel{
+    width: 42vw;
+    height: 34vh;
+}
