@@ -10,13 +10,16 @@ import { FaNode } from 'react-icons/fa'
 import { SiExpress } from 'react-icons/si'
 import { SiPostgresql } from 'react-icons/si'
 import { SiMysql } from 'react-icons/si'
+import {RiFileDownloadLine} from 'react-icons/ri'
+import CV from '../../images/Curriculum.png'
 import "./index.css"
 
 export default function About() {
     return (
         <section id='about'>
-        <div>
-            <h2>Hi there!</h2>
+        <div className='aboutContainer'>
+            <h2 className='there'>Hi there!</h2>
+            <div className='myDescription'>
             <p>I'm a Fullstack Web Developer
 
                 But apart from programming, I really like playing soccer, spending time with friends or family, and cooking (I also have a degree in gastronomy and haute cuisine).
@@ -26,74 +29,76 @@ export default function About() {
 
                 I like to participate in group projects with people who add value, pleasant experiences, and who help me in my continuous learning process in this world of programming.
             </p>
+            <button className='cv'><a href={CV} download className='cva'>Download CV</a></button> 
+            </div>
             <div>
-                <h2>Skills:</h2>
+                <h1 className='skill-set'>Skill-set</h1>
                 <div className="container experience__container">
                     <div className="experience__frontend">
-                        <h3>Frontend Development</h3>
+                        <h3 className='aboutSubtitle'>Frontend Development</h3>
                         <div className="experience__content">
                             <article className='experience__detail'>
                                 <SiJavascript size={30} className='experience__details-icon' />
                                 <div>
-                                    <h4 >JavaScirpt</h4>
+                                    <h5 >JavaScirpt</h5>
                                 </div>
                             </article>
                             <article className='experience__detail'>
                                 <ImHtmlFive2 size={30} className='experience__details-icon' />
                                 <div>
-                                    <h4 >HTML</h4>
+                                    <h5 >HTML</h5>
                                 </div>
                             </article>
                             <article className='experience__detail'>
                                 <SiCss3 size={30} className='experience__details-icon' />
                                 <div>
-                                    <h4 >CSS</h4>
+                                    <h5 >CSS</h5>
                                 </div>
                             </article>
                             <article className='experience__detail'>
                                 <SiReact size={30} className='experience__details-icon' />
                                 <div>
-                                    <h4 >ReactJS</h4>
+                                    <h5 >ReactJS</h5>
                                 </div>
                             </article>
                             <article className='experience__detail'>
                                 <SiRedux size={30} className='experience__details-icon' />
                                 <div>
-                                    <h4 >React-Redux</h4>
+                                    <h5 >React-Redux</h5>
                                 </div>
                             </article>
                             <article className='experience__detail'>
                                 <SiJquery size={30} className='experience__details-icon' />
                                 <div>
-                                    <h4 >JQuery</h4>
+                                    <h5 >JQuery</h5>
                                 </div>
                             </article>
                             <article className='experience__detail'>
                                 <BsBootstrap size={30} className='experience__details-icon' />
                                 <div>
-                                    <h4 >Bootstrap</h4>
+                                    <h5 >Bootstrap</h5>
                                 </div>
                             </article>
                         </div>
                     </div>
                     <div className="experience__backend">
-                        <h3>Backend Development</h3>
+                        <h3 className='aboutSubtitle'>Backend Development</h3>
                         <div className="experience__content">
                             <article className='experience__detail'>
                                 <FaNode size={40} className='experience__details-icon' />
-                                <h4>Node.Js</h4>
+                                <h5>Node.Js</h5>
                             </article>
                             <article className='experience__detail'>
                                 <SiExpress size={30} className='experience__details-icon' />
-                                <h4>Expres.Js</h4>
+                                <h5>Expres.Js</h5>
                             </article>
                             <article className='experience__detail'>
                                 <SiPostgresql size={30} className='experience__details-icon' />
-                                <h4>PostgreSQL</h4>
+                                <h5>PostgreSQL</h5>
                             </article>
                             <article className='experience__detail'>
                                 <SiMysql size={30} className='experience__details-icon' />
-                                <h4>MySQL</h4>
+                                <h5>MySQL</h5>
                             </article>
                         </div>
                     </div>

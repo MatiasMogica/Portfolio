@@ -49,7 +49,7 @@ export default function Card({name, images, description}) {
     return (
         <div className="cardContainer">
         <div className="carouserContainer">
-            <h3>{name}</h3>
+            <h3 className="nameCard">{name}</h3>
         <Carousel
         activeIndex={activeIndex}
         next={next}

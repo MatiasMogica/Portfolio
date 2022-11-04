@@ -18,12 +18,12 @@ nav a{
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-ligth);
+    color: rgb(231, 60, 55);
     font-size: 1.1rem;
 }
 
 nav a:hover{
-    background: var(--color-bg);
+    background: rgb(190, 114, 111);
 }
 
 nav a.active{
