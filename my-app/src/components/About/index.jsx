@@ -10,7 +10,6 @@ import { FaNode } from 'react-icons/fa'
 import { SiExpress } from 'react-icons/si'
 import { SiPostgresql } from 'react-icons/si'
 import { SiMysql } from 'react-icons/si'
-import {RiFileDownloadLine} from 'react-icons/ri'
 import CV from '../../images/Curriculum.png'
 import "./index.css"
 

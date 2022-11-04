@@ -4,7 +4,6 @@ import {
     CarouselItem,
     CarouselControl,
     CarouselIndicators,
-    CarouselCaption,
   } from 'reactstrap'
 import "bootstrap/dist/css/bootstrap.min.css" 
 import "./card.css"
@@ -38,10 +37,6 @@ export default function Card({name, images, description}) {
             key={item.src}
           >
             <img src={item.src} alt={"image not found"} className="imageCarousel" />
-            {/* <CarouselCaption
-              captionText={item.caption}
-              captionHeader={item.caption}
-            /> */}
           </CarouselItem>
         );
       });
