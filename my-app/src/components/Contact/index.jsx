@@ -62,7 +62,6 @@ export default function Contact() {
                         <div className="field">
                             <input type="submit" className="btnContact" value="Send Message"></input>
                         </div>
-                        {/* <ReCAPTCHA sitekey={'6LcyCNgiAAAAACXV_HqJwtM8x6tb7qZJSwth12tw'} onChange={sendEmail} /> */}
                     </form>
                 </div>
             </div>
